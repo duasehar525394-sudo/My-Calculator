@@ -54,3 +54,11 @@ box-sizing: border-box;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
 }
+
+@media screen and (max-width: 768px) {
+    .calculator {
+        width: 90%;
+        max-width: 360px;
+        box-sizing: border-box;
+    }
+}
