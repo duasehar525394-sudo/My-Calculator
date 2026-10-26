@@ -57,8 +57,8 @@ box-sizing: border-box;
 
 @media screen and (max-width: 768px) {
     .calculator {
-        width: 90%;
-        max-width: 360px;
+        width: 95%;
+        max-width: 420px;
         box-sizing: border-box;
     }
 }
