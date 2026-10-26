@@ -56,9 +56,30 @@ box-sizing: border-box;
 }
 
 @media screen and (max-width: 768px) {
-    .calculator {
-        width: 95%;
-        max-width: 420px;
+    body {
+        margin: 0;
+        padding: 15px;
         box-sizing: border-box;
+    }
+
+    .calculator {
+        width: 100%;
+        max-width: 500px;
+        padding: 24px;
+        box-sizing: border-box;
+    }
+
+    .screen {
+        height: 90px;
+        font-size: 40px;
+    }
+
+    .buttons {
+        gap: 12px;
+    }
+
+    .buttons button {
+        height: 70px;
+        font-size: 24px;
     }
 }
